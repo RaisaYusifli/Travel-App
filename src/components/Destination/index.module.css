@@ -1,0 +1,23 @@
+.destination{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.country{
+  display: flex;
+  gap: 16px;
+}
+.continent {
+  color: var(--violet-500, #4a21ef);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 171.429% */
+}
+.destination div:nth-child(2){
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}

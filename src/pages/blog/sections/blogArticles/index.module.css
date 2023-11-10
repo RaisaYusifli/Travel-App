@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto;
+  padding: 0 72px;
+}
+
+.trend {
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(6,1fr);
+  gap: 24px;
+}

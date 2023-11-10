@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  padding: 120px 72px;
+}
+.reasons {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.container > p {
+  color: var(--gray-900, #141d24);
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+}

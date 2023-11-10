@@ -1,0 +1,42 @@
+.container {
+  background: var(--violet-500, #4a21ef);
+  display: flex;
+  padding: 72px 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.text > p {
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 166.667% */
+}
+.arrow {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+button {
+  border-radius: 24px;
+  background: var(--primary-white, #fff);
+  border: none;
+  outline: none;
+}
+.arrow a {
+  color: var(--violet-500, #4a21ef);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}

@@ -1,0 +1,127 @@
+.container {
+  margin: 0 auto;
+  padding: 0 72px;
+}
+.footer-top {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 636px;
+  height: 200px; */
+}
+.footer-text p:first-child {
+  color: var(--gray-900, #141d24);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+.footer-text p:nth-child(2) {
+  color: var(--gray-900, #141d24);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 16px;
+}
+.footer-input {
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 24px;
+  border-radius: 99px;
+  border: 1px solid var(--gray-200, #c9d2da);
+  background: var(--primary-white, #fff);
+  margin: 0 80px;
+  margin-top: 40px;
+}
+footer div input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  /* flex: 3; */
+}
+footer div input::placeholder {
+  color: #757575;
+  font: 400 16px "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.sign {
+  /* flex: 1; */
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: var(--violet-500, #4a21ef);
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  width: 36%;
+  margin-left: 24px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 182px;
+  gap: 24px;
+}
+.footer-wrapper .footer-card h3 {
+  color: var(--gray-900, #141d24);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.link {
+  color: var(--gray-700, #3a4d5a);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+.span {
+  color: var(--gray-700, #3a4d5a);
+
+  /* XS/Regular */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  margin-top: 33px;
+}
+.footer-logo{
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: space-between;
+}
+.footer-card{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ul{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logo{
+  display: flex;
+  flex-shrink: 0;
+  
+}

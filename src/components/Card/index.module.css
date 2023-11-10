@@ -1,0 +1,115 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-img img {
+  width: 100%;
+}
+.card-img {
+  position: relative;
+}
+.comment-button {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.button {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: var(--violet-500, #4a21ef);
+  border: none;
+  outline: none;
+}
+.button .iconText {
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.button .iconImg {
+  width: 20px;
+  height: 20px;
+}
+
+.bookMarkIcon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.saveBtn {
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  border: 1px solid var(--gray-50, #f5f7fa);
+  background: var(--primary-white, #fff);
+  display: flex;
+  padding: 8px ;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.bookmark {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #4a21ef;
+}
+.saveBtn:hover{
+  cursor: pointer;
+}
+.card-content {
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid var(--gray-100, #e3e7eb);
+  border-bottom: 1px solid var(--gray-100, #e3e7eb);
+  border-left: 1px solid var(--gray-100, #e3e7eb);
+  background: var(--primary-white, #fff);
+  padding: 16px;
+}
+.trip {
+  color: var(--gray-500, #5e6f7d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+.description {
+  color: var(--gray-900, #141d24);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 16px; 
+}
+.tripDays {
+  color: var(--gray-500, #5e6f7d);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.from {
+  color: var(--gray-500, #5e6f7d);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.tripPrice {
+  color: var(--gray-900, #141d24);
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.extras {
+  display: flex;
+  justify-content: space-between;
+}

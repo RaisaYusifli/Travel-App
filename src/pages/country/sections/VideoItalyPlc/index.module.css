@@ -1,0 +1,114 @@
+.container {
+  margin: 0 auto;
+  padding: 0 54px;
+}
+.container > img {
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+.texts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 360px;
+  right: 489.5px;
+  left: 489.5px;
+  /* bottom: 274px; */
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.text p:first-child {
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 125% */
+}
+.text p:nth-child(2) {
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.texts button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--violet-500, #4a21ef);
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.statistics {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  /* bottom: 28px; */
+  /* top: 650px; */
+  /* top: 99%; */
+  left: 250px;
+  top: 650px;
+  /* background-color: yellow; */
+}
+.statistic {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frame p {
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; 
+}
+.frameInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.frameInner p {
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+.frameSun {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frameSun p{
+  color: var(--primary-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
