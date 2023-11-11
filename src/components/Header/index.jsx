@@ -2,12 +2,65 @@ import styles from "./index.module.css";
 import { Navs } from "../Navs";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Logo.png";
+import { useState } from "react";
+
 export function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <>
       <header className={styles.header}>
         <div className={styles.container}>
-          <Navs />
+          <Navs handleMenuClick={handleMenuClick} />
+          <div
+            onClick={handleMenuClick}
+            className={menuOpen ? `${styles.hamburgerMenu}` : `${styles.dNone}`}
+          >
+            <div className={styles.headerItems}>
+              <ul>
+                <li>
+                  <Link className={styles.link} to="/">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link className={styles.link} to="/about">
+                    About us
+                  </Link>
+                </li>
+                <li>
+                  <Link className={styles.link} to="/faq">
+                    FAQ
+                  </Link>
+                </li>
+                <li>
+                  <Link className={styles.link} to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link className={styles.link} to="/contact">
+                    Contact us
+                  </Link>
+                </li>
+                <li>
+                {" "}
+                <Link className={styles.link} to="/destination">
+                  Destination
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link className={styles.link} to="/private-trip">
+                  Private trip
+                </Link>
+              </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </header>
       <div className={styles.nav}>
@@ -27,6 +80,7 @@ export function Header() {
                   Private trip
                 </Link>
               </li>
+              
             </ul>
           </nav>
         </div>
@@ -62,3 +116,6 @@ export function Header() {
     </>
   );
 }
+
+
+

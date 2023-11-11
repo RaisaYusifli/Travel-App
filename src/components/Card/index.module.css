@@ -48,7 +48,7 @@
   border: 1px solid var(--gray-50, #f5f7fa);
   background: var(--primary-white, #fff);
   display: flex;
-  padding: 8px ;
+  padding: 8px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -59,7 +59,7 @@
   flex-shrink: 0;
   color: #4a21ef;
 }
-.saveBtn:hover{
+.saveBtn:hover {
   cursor: pointer;
 }
 .card-content {
@@ -69,6 +69,12 @@
   border-left: 1px solid var(--gray-100, #e3e7eb);
   background: var(--primary-white, #fff);
   padding: 16px;
+}
+.upperText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 .trip {
   color: var(--gray-500, #5e6f7d);
@@ -84,7 +90,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 .tripDays {
   color: var(--gray-500, #5e6f7d);
@@ -112,4 +118,92 @@
 .extras {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .card {
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card .card-img {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .card-content {
+    display: flex;
+    width: 330px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .upperText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+  .trip {
+    color: var(--gray-500, #5e6f7d);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+  }
+  .description {
+    color: var(--gray-900, #141d24);
+
+    /* M-20/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+  }
+  .extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .tripDays {
+    color: var(--gray-500, #5e6f7d);
+
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .from {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    color: var(--gray-500, #5e6f7d);
+    text-align: right;
+
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .tripPrice {
+    color: var(--gray-900, #141D24);
+text-align: right;
+
+/* M-24/Semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+  }
 }

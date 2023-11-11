@@ -72,3 +72,70 @@ header {
   font-weight: 600;
   line-height: 24px;
 }
+
+/* hamburger menu */
+.dNone {
+  display: none;
+}
+
+.hamburgerMenu {
+  /* position: absolute; */
+  background-color: #fff;
+  width: 100%;
+  height: 45vh;
+  z-index: 5;
+}
+.hamburgerMenu > .headerItems > ul {
+  margin-top: 30px;
+  list-style-type: none;
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.hamburgerMenu > .headerItems > ul :hover {
+  color: #0f0339;
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: scale(1.5);
+}
+
+/* @media (max-width: 576px) {
+  .container {
+    padding: 0;
+    max-width: 540px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+/* @media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  
+#menu-btn{
+  display: none;
+}
+  
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+} */

@@ -23,16 +23,19 @@ export function Card(props) {
           </div>
         )} */}
 
-        {props.showBookmark && (<div className={style.bookMarkIcon}>
-          <button className={style.saveBtn}>
-            <img src={props.bookmark} className={style.bookmark} alt="" />
-          </button>
-        </div>)}
-        
+        {props.showBookmark && (
+          <div className={style.bookMarkIcon}>
+            <button className={style.saveBtn}>
+              <img src={props.bookmark} className={style.bookmark} alt="" />
+            </button>
+          </div>
+        )}
       </div>
-      <div class={style["card-content"]}>
-        <p className={style.trip}>{props.trip}</p>
-        <p className={style.description}>{props.description}</p>
+      <div className={style["card-content"]}>
+        <div className={style.upperText}>
+          <p className={style.trip}>{props.trip}</p>
+          <p className={style.description}>{props.description}</p>
+        </div>
         <div className={style.extras}>
           <p className={style.tripDays}>{props.days}</p>
           <p className={style.from}>
