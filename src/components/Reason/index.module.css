@@ -21,6 +21,14 @@
   border: none;
   outline: none;
 }
+.reasonText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
 .reason p {
   color: var(--gray-900, #141d24);
   font-size: 16px;
@@ -28,4 +36,29 @@
   font-weight: 600;
   line-height: 24px; /* 150% */
   color: #141d24;
+}
+@media (max-width: 576px) {
+  .reason {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+  }
+  .reason button {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+  .reasonText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+  }
 }

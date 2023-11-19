@@ -195,3 +195,6 @@ border-radius: 24px;
 background: var(--violet-500, #4a21ef);
 color: white;
 }
+.createAccount-error{
+  color: red;
+}

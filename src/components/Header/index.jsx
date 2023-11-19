@@ -10,6 +10,7 @@ export function Header() {
   const handleMenuClick = () => {
     setMenuOpen(!menuOpen);
   };
+  
   return (
     <>
       <header className={styles.header}>
@@ -47,75 +48,72 @@ export function Header() {
                   </Link>
                 </li>
                 <li>
-                {" "}
-                <Link className={styles.link} to="/destination">
-                  Destination
-                </Link>
-              </li>
-              <li>
-                {" "}
-                <Link className={styles.link} to="/private-trip">
-                  Private trip
-                </Link>
-              </li>
+                  {" "}
+                  <Link className={styles.link} to="/destination">
+                    Destination
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link className={styles.link} to="/private-trip">
+                    Private trip
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </header>
-      <div className={styles.nav}>
-        <div className={styles["nav-left"]}>
-          <nav>
-            <ul className={styles.links}>
-              {/* <li> <Link className={styles.link} to="/destination?sort='asc'">Destination</Link></li> */}
-              <li>
-                {" "}
-                <Link className={styles.link} to="/destination">
-                  Destination
-                </Link>
-              </li>
-              <li>
-                {" "}
-                <Link className={styles.link} to="/private-trip">
-                  Private trip
-                </Link>
-              </li>
-              
-            </ul>
-          </nav>
-        </div>
-        <div className={styles["nav-middle"]}>
-          <a href="#">
-            <img src={logo} alt="" />
-          </a>
-        </div>
-        <div className={styles["nav-right"]}>
-          <nav>
-            <ul className={styles.links}>
-              <li>
-                <button className={styles.lucky}>
-                  <Link
-                    className={styles["lucky-text"]}
-                    to="/destination/italy"
-                  >
-                    I'm Feeling Lucky
+        <div className={styles.nav}>
+          <div className={styles["nav-left"]}>
+            <nav>
+              <ul className={styles.links}>
+                {/* <li> <Link className={styles.link} to="/destination?sort='asc'">Destination</Link></li> */}
+                <li>
+                  {" "}
+                  <Link className={styles.link} to="/destination">
+                    Destination
                   </Link>
-                </button>
-              </li>
-              <li>
-                <button className={styles.login}>
-                  <Link className={styles["login-text"]} to="/signin">
-                    Login
+                </li>
+                <li>
+                  {" "}
+                  <Link className={styles.link} to="/private-trip">
+                    Private trip
                   </Link>
-                </button>
-              </li>
-            </ul>
-          </nav>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div className={styles["nav-middle"]}>
+            <a href="#">
+              <img src={logo} alt="" />
+            </a>
+          </div>
+          <div className={styles["nav-right"]}>
+            <nav>
+              <ul className={styles.links}>
+                <li>
+                  <button className={styles.lucky}>
+                    <Link
+                      className={styles["lucky-text"]}
+                      to="/destination/italy"
+                    >
+                      I'm Feeling Lucky
+                    </Link>
+                  </button>
+                </li>
+                <li>
+                  <button className={styles.login}>
+                    <Link className={styles["login-text"]} to="/signin">
+                      Login
+                    </Link>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
+        
     </>
   );
 }
-
-
-

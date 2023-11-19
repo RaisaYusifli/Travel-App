@@ -12,6 +12,7 @@ import { Blog } from "./pages/blog";
 import { SignIn } from "./pages/signIn";
 import { ForggotPass } from "./pages/forgotPassword";
 import { CreateAccount } from "./pages/CreateAccount";
+
 function App() {
   return (
     <div className="wrapper">

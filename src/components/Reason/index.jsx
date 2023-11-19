@@ -6,7 +6,9 @@ export function Reason(props) {
       <button>
         <img src={props.frame} alt="" />
       </button>
-      <p>{props.frameText}</p>
+      <div className={style.reasonText}>
+        <p>{props.frameText}</p>
+      </div>
     </div>
   );
 }

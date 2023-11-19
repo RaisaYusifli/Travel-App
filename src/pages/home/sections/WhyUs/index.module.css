@@ -17,3 +17,30 @@
   line-height: 48px;
   margin-bottom: 40px;
 }
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    padding: 32px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .container > p {
+    color: var(--gray-900, #141d24);
+    text-align: center;
+
+    /* XXL-40/Bold */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+  }
+  .reasons {
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}

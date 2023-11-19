@@ -226,3 +226,9 @@ body {
 .socialAccounts .item:hover{
   cursor: pointer;
 }
+.form-email-error{
+  color: red;
+}
+.form-password-error{
+  color: red;
+}

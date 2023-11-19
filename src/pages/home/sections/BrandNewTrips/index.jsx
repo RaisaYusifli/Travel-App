@@ -10,7 +10,7 @@ export function BrandNewTrips() {
         {cardsTrending.map((card) => {
           return (
             <Card
-            key={card.id}
+              key={card.id}
               image={card.image}
               trip={card.trip}
               description={card.description}

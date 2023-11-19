@@ -30,7 +30,7 @@
   top: 52px;
   right: 400px;
 }
-.vector2{
+.vector2 {
   position: absolute;
   bottom: 32px;
   left: 340px;
@@ -43,9 +43,9 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; 
+  line-height: 24px;
 }
-.vector2 p{
+.vector2 p {
   position: absolute;
   top: 20px;
   left: 30px;
@@ -53,5 +53,38 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; 
+  line-height: 24px;
+}
+.ourLocalExperts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .container > p {
+    color: var(--gray-900, #141d24);
+    text-align: center;
+
+    /* XXL-40/Bold */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+  }
+  .localImgs {
+    display: flex;
+    padding: 24px 0px;
+    align-items: flex-start;
+    gap: 8px;
+    
+  }
 }

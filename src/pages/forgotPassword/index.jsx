@@ -2,8 +2,18 @@ import style from "./index.module.css";
 import logo from "../../assets/Logo.png";
 import arrow from "../../assets/chevron-left.png";
 import { Link } from "react-router-dom";
+import { Controller, useForm } from "react-hook-form";
+import { DevTool } from "@hookform/devtools";
 
 export function ForggotPass() {
+  const methods = useForm({
+    mode: "all",
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+  console.log("ajndjasd---", methods.formState.errors);
   return (
     <div className={style.container}>
       <div className={style.leftSide}></div>
@@ -30,12 +40,34 @@ export function ForggotPass() {
               <div className={style.inputs}>
                 <div className={style.input}>
                   <label htmlFor="email">Email</label>
-                  <input
-                    type="email"
-                    id="email"
+                  <Controller
+                    control={methods.control}
                     name="email"
-                    placeholder="someone@example.com"
+                    rules={{
+                      required: "This is field is required!",
+                      validate: (value) => {
+                        return (
+                          !value.includes("@gmail.com") &&
+                          "The value should contain correct email path!"
+                        );
+                      },
+                    }}
+                    render={({ field }) => {
+                      return (
+                        <input
+                          {...field}
+                          type="email"
+                          id="email"
+                          placeholder="someone@example.com"
+                        />
+                      );
+                    }}
                   />
+                  {methods.formState.errors?.email && (
+                    <div className={style["forgotPassword-error"]}>
+                      {methods.formState.errors?.email?.message}
+                    </div>
+                  )}
                 </div>
               </div>
             </form>
@@ -45,6 +77,8 @@ export function ForggotPass() {
           </div>
         </div>
       </div>
+      <DevTool control={methods.control} />
+
     </div>
   );
 }

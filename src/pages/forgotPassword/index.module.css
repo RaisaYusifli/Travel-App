@@ -134,3 +134,6 @@ background: var(--violet-500, #4A21EF);
   background: var(--violet-500, #4a21ef);
   color: white;
 }
+.forgotPassword-error{
+  color: red;
+}
