@@ -61,6 +61,9 @@
   align-items: center;
   gap: 40px;
 }
+.responsiveLocalImgs {
+  display: none;
+}
 @media (max-width: 576px) {
   .container {
     display: flex;
@@ -79,12 +82,33 @@
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 166.667% */
+    margin: 0 auto;
+    padding-bottom: 48px;
   }
   .localImgs {
+    display: none;
+  }
+  .responsiveLocalImgs {
     display: flex;
+    flex-direction: column;
     padding: 24px 0px;
     align-items: flex-start;
     gap: 8px;
-    
+    margin: 0 auto;
+    position: relative;
+  }
+  .vector1 {
+    position: absolute;
+    left: -85px;
+    top:40px;
+    width: 200px;
+    height: 85px;
+  }
+  .vector2{
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    bottom: 40px;
+    left: 130px;
   }
 }

@@ -1,10 +1,13 @@
 import style from './index.module.css';
 import frameImg from '../../assets/reviewFrame.png';
+import localRes from '../../assets/localRes.png'
 
 export function ReviewCmp(props) {
   return (
     <div className={style.containerCard}>
       <img src={props.image} className={style.image} alt="" />
+      <img src={localRes} className={style.imageRes} alt="" />
+
       <div className={style.reviewText}>
         <p>
           “Tiago put together an epic itinerary for me and my friends. He showed
@@ -15,6 +18,7 @@ export function ReviewCmp(props) {
         <p>Charlie, rappelling down a 370-foot waterfall</p>
         <p>The Azores</p>
       </div>
+      
       <div className={style.localExpertInfo}>
         <button>
           <img src={frameImg} alt="" />
@@ -26,6 +30,7 @@ export function ReviewCmp(props) {
           </p>
         </div>
       </div>
+
     </div>
   );
 }

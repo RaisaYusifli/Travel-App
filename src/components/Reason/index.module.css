@@ -1,6 +1,6 @@
 .reason {
   display: flex;
-  width: 416px;
+  /* width: 416px; */
   padding: 32px;
   align-items: center;
   gap: 16px;
@@ -44,6 +44,7 @@
     align-items: center;
     gap: 16px;
     align-self: stretch;
+    width: 100%;
   }
   .reason button {
     display: flex;

@@ -3,6 +3,8 @@ import local1 from "../../../../assets/local1Home.png";
 import local2 from "../../../../assets/local2Home.png";
 import vector1 from "../../../../assets/Vector.png";
 import vector2 from "../../../../assets/vector2.png";
+import res1 from "../../../../assets/CallcenterRes.png";
+import res2 from "../../../../assets/CallcenterRes2.png";
 
 export function LocalExperts() {
   return (
@@ -25,6 +27,22 @@ export function LocalExperts() {
             <p>Why trust Gary in Florida to plan your trip to South Africa?</p>
           </div>
         </div>
+      </div>
+
+      <div className={style.responsiveLocalImgs}>
+        {/* <div className={style.res1}> */}
+          <img src={res1} alt="" />
+          <div className={style.vector1}>
+            <img src={vector1} alt="" />
+            <p>Why trust Gary in Florida to plan your trip to South Africa?</p>
+          </div>
+
+          <img src={res2} alt="" />
+          <div className={style.vector2}>
+            <img src={vector2} alt="" />
+            <p>Why trust Gary in Florida to plan your trip to South Africa?</p>
+          </div>
+        {/* </div> */}
       </div>
     </div>
   );

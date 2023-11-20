@@ -35,6 +35,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 166.667% */
+    margin: 0 auto;
+    padding-bottom: 24px;
   }
   .reasons {
     display: flex;
@@ -42,5 +44,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+    width: 100%;
+    flex: 1 1 calc(100%-60px);
+
   }
 }

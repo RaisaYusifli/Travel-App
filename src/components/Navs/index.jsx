@@ -1,32 +1,11 @@
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import arrow from "../../assets/arrow.png";
-// import currencies from "./database";
-// import { Currency } from "../Currency";
-import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import user from "../../assets/User_01.png";
 
-export function Navs({handleMenuClick}) {
-  // const [selectedCurrency, setSelectedCurrency] = useState(null);
-
-  // const handleCurrentSelect = (currency) => {
-  //   setSelectedCurrency(currency);
-  // };
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  //  handleMenuClick = () => {
-  //   setMenuOpen(!menuOpen);
-  //   console.log('div gosterildi')
-  // };
-
+export function Navs() {
   return (
     <div className={styles.nav}>
       <div className={styles["nav-left"]}>
-        <button id={styles["menu-btn"]}type="button" onClick={handleMenuClick}>
-          <FontAwesomeIcon className={styles.icon} icon={menuOpen ? faXmark : faBars} />
-        </button>
         <nav>
           <ul className={styles.links}>
             <li>
@@ -97,9 +76,6 @@ export function Navs({handleMenuClick}) {
         <a href="#">
           <img src={arrow} alt="" />
         </a>
-        <div className={styles.profile}>
-          <img src={user} alt="" />
-        </div>
       </div>
     </div>
   );

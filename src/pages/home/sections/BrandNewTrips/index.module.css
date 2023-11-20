@@ -22,21 +22,32 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    max-width: 540px;
+    overflow-x: scroll;
   }
   .container > p {
     color: var(--gray-900, #141d24);
     text-align: center;
-
-    /* XXL-40/Bold */
-    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 166.667% */
+    margin: 0 auto;
+    padding-bottom: 24px;
   }
   .trend {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    flex-wrap: nowrap;
+    gap:40px 25px;
+    overflow-x: auto;
+    flex: 1 1 calc(100%-40px);
+    width: 100%;
+  }
+  .trend :first-child{
+    margin-left: auto;
+  }
+  .trend :last-child{
+    margin-right: auto;
   }
 }

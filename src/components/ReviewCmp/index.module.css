@@ -88,3 +88,22 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
+.imageRes{
+  display: none;
+}
+@media (max-width: 576px) {
+  .image{
+    display: none;
+  }
+  .imageRes{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .reviewText{
+    bottom: 300px;
+  }
+  .localExpertInfo{
+    bottom: 170px;
+  }
+}

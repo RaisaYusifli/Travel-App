@@ -88,8 +88,8 @@
 
 @media (max-width: 576px) {
   .container {
+    min-width: 540px;
     display: flex;
-    width: 390px;
     padding: 15px 15px 32px 15px;
     flex-direction: column;
     justify-content: center;
@@ -97,12 +97,10 @@
   }
   .text {
     display: flex;
-    width: 360px;
     padding: 0px 36px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
   }
   .texts {
     display: flex;
@@ -132,14 +130,16 @@
     padding: 8px 8px 8px 24px;
     align-items: center;
     gap: 24px;
-    align-self: stretch;
     border-radius: 99px;
     border: 1px solid var(--gray-200, #c9d2da);
     background: var(--primary-white, #fff);
   }
+  .input input{
+    flex: 1 0 0;
+  }
   .input .icon {
     display: flex;
-    width: 40px;
+    /* width: 40px; */
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
