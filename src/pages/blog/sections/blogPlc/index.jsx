@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import image from "../../../../assets/blog.png";
+import image from "../../../../../public/assets/blog.png";
 
 export function BlogPlc() {
   return (

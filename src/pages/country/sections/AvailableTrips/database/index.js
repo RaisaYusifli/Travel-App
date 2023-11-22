@@ -1,10 +1,10 @@
-import italy from "../../../../../assets/ItalyDest.png";
-import portugal from "../../../../../assets/PortugalDest.png";
-import turkey from "../../../../../assets/TurkeyDest.png";
-import iceland from "../../../../../assets/IcelandDest.png";
-import costarica from "../../../../../assets/CostoRicaDest.png";
-import argentina from "../../../../../assets/ArgentianDest.png";
-import bookmark from "../../../../../assets/bookmark.png";
+import italy from "../../../../../../public/assets/ItalyDest.png";
+import portugal from "../../../../../../public/assets/PortugalDest.png";
+import turkey from "../../../../../../public/assets/TurkeyDest.png";
+import iceland from "../../../../../../public/assets/IcelandDest.png";
+import costarica from "../../../../../../public/assets/CostoRicaDest.png";
+import argentina from "../../../../../../public/assets/ArgentianDest.png";
+import bookmark from "../../../../../../public/assets/bookmark.png";
 
 const topDestinations = [
   {

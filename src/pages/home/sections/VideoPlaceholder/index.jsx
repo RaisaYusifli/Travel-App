@@ -1,6 +1,6 @@
-import searchIcon from "../../../../assets/search_icon.png";
+import searchIcon from "../../../../../public/assets/search_icon.png";
 import style from "./index.module.css";
-// import video from "../../assets/Homepage.gif";
+// import video from "../../../public/assets/Homepage.gif";
 export function VideoPlaceholder() {
   return (
     <div className={style.container}>

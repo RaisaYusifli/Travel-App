@@ -1,9 +1,9 @@
 import style from "./index.module.css";
-import logo from "../../assets/Logo.png";
-import arrow from "../../assets/chevron-left.png";
-import google from "../../assets/goggle.png";
-import apple from "../../assets/apple.png";
-import facebook from "../../assets/facebook.png";
+import logo from "../../../public/assets/Logo.png";
+import arrow from "../../../public/assets/chevron-left.png";
+import google from "../../../public/assets/goggle.png";
+import apple from "../../../public/assets/apple.png";
+import facebook from "../../../public/assets/facebook.png";
 import { Link } from "react-router-dom";
 import { Controller, useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";

@@ -1,36 +1,47 @@
 .container {
-  margin: 0 auto;
-  padding: 0 54px;
-  position: relative;
-}
-.container img {
-  width: 100%;
-  
+  margin: 20px 54px;
+  background-image: url('../../../../../public/assets/Destinations.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 672px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 .text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 16px;
-  position: absolute;
-  top: 200px;
-  bottom: 412px;
-  left: 360px;
-  right: 360px;
 }
-.text p:first-child{
-    color: var(--primary-white, #FFF);
-text-align: center;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 60px; /* 125% */
+.text p:first-child {
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 125% */
 }
-.text p:nth-child(2){
-    color: var(--primary-white, #FFF);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 24px; /* 150% */
+.text p:nth-child(2) {
+  color: var(--primary-white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 576px) {
+  .container{
+    margin: 0 15px;
+  }
+  .text p:first-child {
+    text-align: center;
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .text p:nth-child(2) {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px; 
+  }
 }

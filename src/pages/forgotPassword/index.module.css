@@ -14,7 +14,7 @@ body {
 .leftSide {
   /* display: grid; */
   flex: 1 1 auto;
-  background-image: url("../../assets/signin.png");
+  background-image: url("../../../public/assets/signin.png");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -25,6 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 36px 72px;
+  background-color: white;
 }
 .passFormSection {
   display: flex;
@@ -120,20 +121,39 @@ body {
 }
 
 .passButton {
-    display: flex;
-    width: 512px;
-    padding: 12px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 24px;
-background: var(--violet-500, #4A21EF);
+  display: flex;
+  width: 512px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: var(--violet-500, #4a21ef);
 }
 .passButton button {
   border-radius: 24px;
   background: var(--violet-500, #4a21ef);
   color: white;
 }
-.forgotPassword-error{
+.forgotPassword-error {
   color: red;
+}
+
+@media (max-width:576px){
+  .rightSide{
+    min-width: 100vw;
+  }
+  .leftSide{
+    display: none;
+  }
+  .passFormSection{
+    padding: 30px 40px;
+  }
+  .passText p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .passText p:nth-child(2){
+    font-size: 14px;
+  }
 }

@@ -1,10 +1,10 @@
 import style from "./index.module.css";
-// import image from "../../assets/signin.png";
-import logo from "../../assets/Logo.png";
-import eyeLogo from "../../assets/eyeLogo.png";
-import google from "../../assets/goggle.png";
-import apple from "../../assets/apple.png";
-import facebook from "../../assets/facebook.png";
+// import image from "../../../public/assets/signin.png";
+import logo from "../../../public/assets/Logo.png";
+import eyeLogo from "../../../public/assets/eyeLogo.png";
+import google from "../../../public/assets/goggle.png";
+import apple from "../../../public/assets/apple.png";
+import facebook from "../../../public/assets/facebook.png";
 import { Link } from "react-router-dom";
 import { Controller } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
@@ -22,12 +22,12 @@ export function SignIn() {
 
   return (
     <div className={style.container}>
-      <div className={style.leftSide}>{/* <img src={image} alt="" /> */}</div>
+      <div className={style.leftSide}></div>
 
       <div className={style.rightSide}>
-        <header>
+        <div>
           <img src={logo} alt="" />
-        </header>
+        </div>
 
         <div className={style.formSection}>
           <div className={style.travelInfo}>

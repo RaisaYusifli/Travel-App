@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import arrow from "../../assets/Chevron_Right.png";
+import arrow from "../../../public/assets/Chevron_Right.png";
 export function LookingGoElsewhere() {
   return (
     <div className={style.container}>

@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import image from "../../../../assets/contact.png";
+import image from "../../../../../public/assets/contact.png";
 export function ContactPlc() {
   return (
     <div className={style.container}>

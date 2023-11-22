@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import image from "../../../../assets/AboutUs.png";
+import image from "../../../../../public/assets/AboutUs.png";
 export function AboutPlc() {
   return (
     <div className={style.container}>

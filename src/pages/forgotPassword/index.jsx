@@ -1,6 +1,6 @@
 import style from "./index.module.css";
-import logo from "../../assets/Logo.png";
-import arrow from "../../assets/chevron-left.png";
+import logo from "../../../public/assets/Logo.png";
+import arrow from "../../../public/assets/chevron-left.png";
 import { Link } from "react-router-dom";
 import { Controller, useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";

@@ -14,7 +14,7 @@ body {
 .leftSide {
   /* display: grid; */
   flex: 1 1 auto;
-  background-image: url("../../assets/signin.png");
+  background-image: url("../../../public/assets/signin.png");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 36px 72px;
-
+  background-color: white;
 }
 /* .rightSide header div:first-child{
   background-color: red;
@@ -139,13 +139,12 @@ body {
 }
 .socialAccounts .item {
   display: flex;
-  width: 160px;
   padding: 12px 16px;
   justify-content: center;
   align-items: center;
   gap: 8px;
 }
-.socialAccounts .item:hover{
+.socialAccounts .item:hover {
   cursor: pointer;
 }
 .item img {
@@ -170,7 +169,7 @@ body {
 }
 .rightSide footer p span {
   color: var(--gray-900, #141d24);
-    text-align: center;
+  text-align: center;
   /* S-24/Regular */
   font-family: Inter;
   font-size: 14px;
@@ -188,13 +187,43 @@ body {
   align-items: center;
   gap: 8px;
   border-radius: 24px;
-background: var(--violet-500, #4A21EF);
+  background: var(--violet-500, #4a21ef);
 }
 .createButton button {
-border-radius: 24px;
-background: var(--violet-500, #4a21ef);
-color: white;
+  border-radius: 24px;
+  background: var(--violet-500, #4a21ef);
+  color: white;
 }
-.createAccount-error{
+.createAccount-error {
   color: red;
+}
+
+@media (max-width: 576px) {
+  .leftSide {
+    display: none;
+  }
+  .createFormSection {
+    padding: 30px 40px;
+  }
+  .socialSection {
+    padding: 20px 30px 40px 30px;
+  }
+  .socialAccounts {
+    flex-direction: column;
+  }
+  .item {
+    width: 100vw;
+    border-radius: 72px;
+    border: 1px solid var(--gray-100, #e3e7eb);
+    background: var(--primary-white, #fff);
+  }
+  .createText p{
+    font-weight: 700;
+  }
+  .createButton button {
+    font-size: 16px;
+  }
+  .social >p{
+    font-size: 16px;
+  }
 }

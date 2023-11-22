@@ -1,5 +1,5 @@
 import style from "./index.module.css";
-import image from "../../../../assets/Faq.png";
+import image from "../../../../../public/assets/Faq.png";
 
 export function FaqPlaceholder() {
   return (

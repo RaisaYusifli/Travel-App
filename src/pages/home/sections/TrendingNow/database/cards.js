@@ -1,9 +1,9 @@
-import spain from "../../../../../assets/spainHome1.png";
-import italy from "../../../../../assets/italyHome1.png";
-import turkey from "../../../../../assets/turkeyHome1.png";
-import sparkle from "../../../../../assets/sparkles.png";
-import heart from "../../../../../assets/player-heart.png";
-import bookmark from "../../../../../assets/bookmark.png";
+import spain from "../../../../../../public/assets/spainHome1.png";
+import italy from "../../../../../../public/assets/italyHome1.png";
+import turkey from "../../../../../../public/assets/turkeyHome1.png";
+import sparkle from "../../../../../../public/assets/sparkles.png";
+import heart from "../../../../../../public/assets/player-heart.png";
+import bookmark from "../../../../../../public/assets/bookmark.png";
 
 const cardsTrending = [
   {

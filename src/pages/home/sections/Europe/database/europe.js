@@ -1,7 +1,7 @@
-import bookmark from "../../../../../assets/bookmark.png";
-import shotland from "../../../../../assets/ShotlandHome.png";
-import portugal from "../../../../../assets/PortugalHome.png";
-import icaland from "../../../../../assets/IcalandHome.png";
+import bookmark from "../../../../../../public/assets/bookmark.png";
+import shotland from "../../../../../../public/assets/ShotlandHome.png";
+import portugal from "../../../../../../public/assets/PortugalHome.png";
+import icaland from "../../../../../../public/assets/IcalandHome.png";
 
 const europe = [
   {

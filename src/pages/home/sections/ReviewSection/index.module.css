@@ -1,10 +1,18 @@
 .container {
-  margin: 0 auto;
-  padding: 120px 0;
-  position: relative;
+  margin: 120px 0;
+  background-image: url("../../../../../public/assets/reviewImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 @media (max-width: 576px) {
   .container {
-    padding: 0;
+    justify-content: center;
+    align-items: center;
   }
 }

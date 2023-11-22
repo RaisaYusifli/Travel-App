@@ -1,6 +1,6 @@
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
-import arrow from "../../assets/arrow.png";
+import arrow from "../../../public/assets/arrow.png";
 
 export function Navs() {
   return (

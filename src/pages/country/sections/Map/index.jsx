@@ -1,7 +1,7 @@
 import style from "./index.module.css";
-import map from "../../../../assets/Map Italy.png";
-import leftArrow from "../../../../assets/chevron-left.png";
-import rightArrow from "../../../../assets/chevron-right.png";
+import map from "../../../../../public/assets/Map Italy.png";
+import leftArrow from "../../../../../public/assets/chevron-left.png";
+import rightArrow from "../../../../../public/assets/chevron-right.png";
 import { Card } from "../../../../components/Card";
 import mapAttractions from "../database/mapCard";
 

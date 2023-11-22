@@ -1,6 +1,6 @@
-import why1 from '../../../../../assets/why1.png';
-import why2 from '../../../../../assets/why2.png';
-import why3 from '../../../../../assets/why3.png';
+import why1 from '../../../../../../public/assets/why1.png';
+import why2 from '../../../../../../public/assets/why2.png';
+import why3 from '../../../../../../public/assets/why3.png';
 const reasons=[
     {
         id:1,

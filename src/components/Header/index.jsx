@@ -1,11 +1,11 @@
 import styles from "./index.module.css";
 import { Navs } from "../Navs";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Logo.png";
+import logo from "../../../public/assets/Logo.png";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import user from "../../assets/User_01.png";
+import user from "../../../public/assets/User_01.png";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

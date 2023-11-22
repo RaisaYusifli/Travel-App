@@ -1,8 +1,8 @@
 import style from "./index.module.css";
-import local1 from "../../../../assets/local1Home.png";
-import local2 from "../../../../assets/local2Home.png";
-import vector1 from "../../../../assets/Vector.png";
-import vector2 from "../../../../assets/vector2.png";
+import local1 from "../../../../../public/assets/local1Home.png";
+import local2 from "../../../../../public/assets/local2Home.png";
+import vector1 from "../../../../../public/assets/Vector.png";
+import vector2 from "../../../../../public/assets/vector2.png";
 
 export function LocalExperts() {
   return (

@@ -9,17 +9,17 @@ body {
 .container {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-.leftSide{
+.leftSide {
   /* display: grid; */
   flex: 1 1 auto;
-  background-image: url("../../assets/signin.png");
+  background-image: url("../../../public/assets/signin.png");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
 }
-.rightSide header {
+.rightSide > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
 }
 .inputs .input input {
   display: flex;
@@ -102,7 +102,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   border-radius: 10px;
   outline: none;
   flex: 1 0 0;
@@ -119,7 +119,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   border-radius: 10px;
   outline: none;
   flex: 1 0 0;
@@ -140,7 +140,7 @@ body {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
 }
-.inputs .forgotPassword p:hover{
+.inputs .forgotPassword p:hover {
   color: blue;
 }
 .form .button {
@@ -220,15 +220,41 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-.rightSide footer span:nth-child(2):hover{
+.rightSide footer span:nth-child(2):hover {
   color: blue;
 }
-.socialAccounts .item:hover{
+.socialAccounts .item:hover {
   cursor: pointer;
 }
-.form-email-error{
+.form-email-error {
   color: red;
 }
-.form-password-error{
+.form-password-error {
   color: red;
+}
+
+@media (max-width: 576px) {
+  
+  .leftSide {
+    display: none;
+  }
+  .rightSide > div {
+    border-bottom: 1px solid rgb(236, 233, 233);
+  }
+  .rightSide .formSection {
+    padding: 40px 30px;
+  }
+  .travelInfo > p {
+    font-weight: 700;
+  }
+  .rightSide .socialAccounts {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightSide .socialAccounts .item {
+    width: 100vw;
+    border-radius: 72px;
+    border: 1px solid var(--gray-100, #e3e7eb);
+    background: var(--primary-white, #fff);
+  }
 }

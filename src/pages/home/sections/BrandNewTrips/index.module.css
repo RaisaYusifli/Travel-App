@@ -44,10 +44,4 @@
     flex: 1 1 calc(100%-40px);
     width: 100%;
   }
-  .trend :first-child{
-    margin-left: auto;
-  }
-  .trend :last-child{
-    margin-right: auto;
-  }
 }

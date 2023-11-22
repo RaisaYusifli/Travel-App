@@ -1,8 +1,7 @@
-import spain2 from "../../../../../assets/spainHome2.png";
-import italy2 from "../../../../../assets/italyHome2.png";
-import turkey2 from "../../../../../assets/turkeyHome2.png";
-import bookmark from "../../../../../assets/bookmark.png";
-
+import spain2 from "../../../../../../public/assets/spainHome2.png";
+import italy2 from "../../../../../../public/assets/italyHome2.png";
+import turkey2 from "../../../../../../public/assets/turkeyHome2.png";
+import bookmark from "../../../../../../public/assets/bookmark.png";
 const cardsTrending = [
   {
     id: 1,

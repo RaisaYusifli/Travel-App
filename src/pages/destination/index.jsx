@@ -1,5 +1,4 @@
 // import { Link, useSearchParams } from "react-router-dom";
-
 import { Destinations } from "./sections/Destinations";
 import { ReviewsDest } from "./sections/ReviewsDest";
 import { TopDestinations } from "./sections/TopDestinations";

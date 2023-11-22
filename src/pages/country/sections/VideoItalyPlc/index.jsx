@@ -1,10 +1,10 @@
 import style from './index.module.css';
-import italy from '../../../../assets/ItalyVideoPlc.png';
-import calendar from '../../../../assets/fi-rr-calendar.png';
-import sun from '../../../../assets/sun.png';
-import earth from '../../../../assets/earth.png';
-import dollar from '../../../../assets/dollar-sign.png';
-import wind from '../../../../assets/Frame.png';
+import italy from '../../../../../public/assets/ItalyVideoPlc.png';
+import calendar from '../../../../../public/assets/fi-rr-calendar.png';
+import sun from '../../../../../public/assets/sun.png';
+import earth from '../../../../../public/assets/earth.png';
+import dollar from '../../../../../public/assets/dollar-sign.png';
+import wind from '../../../../../public/assets/Frame.png';
 
 export function VideoItalyPlc(){
     return(

@@ -5,7 +5,7 @@
 .text {
   display: flex;
   flex-direction: column;
-  background-image: url("../../../../assets/Homepage.gif");
+  background-image: url("../../../../../public/assets/Homepage.gif");
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;

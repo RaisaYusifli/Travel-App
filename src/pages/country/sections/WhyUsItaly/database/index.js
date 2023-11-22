@@ -1,9 +1,9 @@
-import why1 from "../../../../../assets/vhy1İtaly.png";
-import why2 from "../../../../../assets/why2Italy.png";
-import why3 from "../../../../../assets/why3Italy.png";
-import why4 from "../../../../../assets/why4italy.png";
-import why5 from "../../../../../assets/why5italy.png";
-import why6 from "../../../../../assets/why6italy.png";
+import why1 from "../../../../../../public/assets/vhy1İtaly.png";
+import why2 from "../../../../../../public/assets/why2Italy.png";
+import why3 from "../../../../../../public/assets/why3Italy.png";
+import why4 from "../../../../../../public/assets/why4italy.png";
+import why5 from "../../../../../../public/assets/why5italy.png";
+import why6 from "../../../../../../public/assets/why6italy.png";
 const reasonsItaly = [
   {
     id: 1,

@@ -2,5 +2,11 @@
   display: flex;
   gap: 24px;
   padding: 120px 240px;
-
+}
+@media (max-width:576px) {
+  .container{
+    flex-direction: column;
+    padding: 32px 30px;
+    gap: 32px;
+  }
 }

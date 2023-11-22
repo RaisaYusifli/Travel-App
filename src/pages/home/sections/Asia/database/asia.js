@@ -1,7 +1,7 @@
-import bookmark from "../../../../../assets/bookmark.png";
-import china from '../../../../../assets/ChindeHome.png';
-import thailand from '../../../../../assets/ThailandHome.png';
-import taiwan from '../../../../../assets/ThaiwanHome.png';
+import bookmark from "../../../../../../public/assets/bookmark.png";
+import china from '../../../../../../public/assets/ChindeHome.png';
+import thailand from '../../../../../../public/assets/ThailandHome.png';
+import taiwan from '../../../../../../public/assets/ThaiwanHome.png';
 
 const asia = [
   {
